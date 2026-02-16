@@ -1,0 +1,8 @@
+flask
+flask-sqlalchemy
+flask-migrate
+marshmallow
+flask-marshmallow
+mysqlclient
+flask-cors
+faker
