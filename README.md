@@ -96,6 +96,8 @@ Design Decisions & Tradeoffs
 
 Improvements With More Time
 If given more time, I would:
+
+
     Backend Improvements
         Add authentication & role-based access.
         Add request logging & structured logging.
