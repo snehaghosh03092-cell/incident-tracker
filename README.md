@@ -35,20 +35,27 @@ Backend Setup
     http://localhost:5000
 
 Frontend Setup
+
 1.Navigate to frontend folder
   cd frontend
+  
 2.Install dependencies
   npm install
+  
 3.Run development server
   npm run dev
   Frontend runs on:
     http://localhost:5173
 
 API Overview
+
     Base URL:
         /api/incidents
+        
     GET /api/incidents
+    
         Fetch paginated incidents with filters.
+        
         Query Parameters:
             page
             per_page
@@ -59,8 +66,11 @@ API Overview
             sort_order
         
         GET /api/incidents/:id
+        
             Fetch single incident by ID.
+            
         POST /api/incidents
+        
             Create new incident.
             Request Body:
                 {
@@ -71,7 +81,9 @@ API Overview
                 "severity": "SEV1",
                 "status": "OPEN"
                 }
+                
         PATCH /api/incidents/:id
+        
             Update an existing incident.
             supports partial updates
 
