@@ -105,6 +105,7 @@ Design Decisions & Tradeoffs
         Tradeoff:
             Used simple ENUM/VARCHAR for severity/status instead of separate lookup tables.
             No authentication layer (out of scope for assignment).
+            
     3. Database Design
         UUID as primary key.
         Timestamp fields for created_at and updated_at.
