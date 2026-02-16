@@ -88,6 +88,7 @@ API Overview
             supports partial updates
 
 Design Decisions & Tradeoffs
+
     1. Frontend Architecture
         Used functional components with hooks.
         Centralized API layer (incidentsApi.js).
