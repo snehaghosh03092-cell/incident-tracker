@@ -13,16 +13,22 @@ Schema Validation: Marshmallow
 The system supports incident creation, listing, filtering, sorting, and full editing.
 
 Backend Setup
+
+
 1.Navigate to backend folder
   cd backend
+  
 2.Create virtual environment
   python -m venv venv
   source venv/bin/activate   # Mac/Linux
   venv\Scripts\activate      # Windows
+  
 3.Install dependencies
   pip install -r requirements.txt
+  
 4.Configure environment variables
   DATABASE_URL=mysql://username:password@localhost/incident_db
+  
 5.Run the server
   python run.py
   Backend runs on:
